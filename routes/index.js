@@ -1,4 +1,5 @@
-const auth = require("./auth")
-const user = require("./user")
+const produk = require("./produk")
+const bahan = require("./bahan")
+const keuangan = require("./keuangan")
 
-module.exports = { auth, user }
+module.exports = { produk, bahan, keuangan }
